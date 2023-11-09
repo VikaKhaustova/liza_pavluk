@@ -4,52 +4,26 @@ body {
     width: 100%;
     padding: 0px;
     margin: 0px;
-}
-.wrapper{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 4000;
 }
 .unturned {
+    position: absolute;
     width: 100%;
     min-height: 365px;
+    float: right;
+    top: 0px;
+    left: 70px;
     z-index: 1;
-}
-.text {
-    background-color: white;
-    border: 15px solid #7E9676;
-    padding: 20px;
-}
-.text_and_images{
-    display: flex;
-    justify-content: space-between;
-    gap: 2vw;
-    margin-top: 20px;
-}
-.images{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
 }
-
-.imgonee, .imgtwoo, .imgthreee, .imgfourr{
-    width: 380px;
-    height: 180px;
-    border: 10px solid #7E9676;
-}
-
 .sqwerone {
     background-color: #2A5023;
     float: left;
     position: fixed;
     width: 72px;
-    height: 100%;
+    height: 4000px;
     top: 0px;
     z-index: 2;
-}
-.colum_two{
-    margin-left: 72px;
 }
 .circleone {
     width: 100px;
@@ -161,128 +135,238 @@ body {
     left: 45px;
 
 }
+.text {
+    background-color: white;
+    border: 15px solid #7E9676;
+    position: absolute;
+    float: left;
+    width: 590px;
+    height: 880px;
+    left: 85px;
+    top: 100%;
 
+}
+.imgone {
+    position: absolute;
+    border: 10px solid #7E9676;
+    left:720px;
+    top: 380px;
+    width: 260px;
+    height: 190px;
+
+}
+.imgtwo {
+    position: absolute;
+    border: 10px solid #7E9676;
+    left:720px;
+    top: 535px;
+    width: 260px;
+    height: 190px;
+    margin-top: 80px;
+
+}
+.imgthree {
+    position: absolute;
+    border: 10px solid #7E9676;
+    left:720px;
+    top: 770px;
+    width: 260px;
+    height: 190px;
+    margin-top: 80px;
+
+}
+.imgfour {
+    position: absolute;
+    border: 10px solid #7E9676;
+    left:720px;
+    top: 1000px;
+    width: 260px;
+    height: 190px;
+    margin-top: 80px;
+
+}
+.imgonee {
+    width: 260px;
+    height: 190px;
+}
+.imgtwoo {
+    width: 260px;
+    height: 190px;
+}
+.imgthreee {
+    width: 260px;
+    height: 190px;
+}
+.imgfourr {
+    width: 260px;
+    height: 190px;
+}
 .unturnedtwo {
     font-size: 40px;
-    text-align: center;
+    position: relative;
+    left: 200px;
+    bottom: 0px;
+    z-index: 0;
     color: #3B4755;
 }
-.texttone{
-    color: #000;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.texttone {
+    position: relative;
+    left: 10px;
+    color: #3B4755;
 }
-
-
-.section_video{
+.videosquwer {
     background-color: white;
     border: 10px solid #7E9676;
-    width: 100%;
-    margin-top: 20px;
+    position: absolute;
+    width: 896px;
+    height: 720px;
+    left: 85px;
+    top: 1300px;
 }
-
-.section_video h2{
-    color: #000;
-    font-family: Inter;
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
+.videosquwertwo {
+    color: #3B4755;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 0px;
+    top: 30px;
 }
-
-.video{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.videogaidtwo{
+.videogaidtwo {
+    position: absolute;
+    left: 150px;
+    top: 100px;
     box-shadow: 4px 6px 0 0 rgb(171, 171, 171);
 }
+.reviewsone {
+    background-color: #D9D9D9;
+    position: relative;
+    top: 420px; 
+    height: 60px;
+    width: 875px;
+    left: 11px;
+    margin-bottom: 29px;
+    border-radius: 5px;
+}
+.reviewstwo {
+    background-color: #D9D9D9;
+    position: relative;
+    top: 420px; 
+    height: 60px;
+    margin-bottom: 29px;
+    border-radius: 5px;
+    width: 875px;
+    left: 11px;
+}
+.reviewsthree {
+    background-color: #D9D9D9;
+    position: relative;
+    top: 420px; 
+    height: 60px;
+    border-radius: 5px;
+    width: 875px;
+    left: 11px;
+}
+.reviewstextone {
+    color: #3B4755;
+    font-size: 15px;
+    position: absolute;
+    left: 80px;
+    top: 15px;
+}
+.reviewstexttwo {
+    color: #3B4755;
+    font-size: 15px;
+    position: absolute;
+    left: 80px;
+    top: 15px;
 
-
+}
+.reviewstextthree {
+    color: #3B4755;
+    font-size: 15px;
+    position: absolute;
+    left: 80px;
+    top: 15px;
+}
 .wallpaperone {
     background-color: #FF8A01;
     color: white;
     border-radius: 50px;
-    font-size: 30px;
+    position: absolute;
     width: 45px;
     height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
+    left: 10px;
+    top: 8px;
 }
 .wallpapertwo {
     background-color: #7000FF;
     color: white;
     border-radius: 50px;
-    font-size: 30px;
+    position: absolute;
     width: 45px;
     height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
+    left: 10px;
+    top: 8px;
+
 }
 .wallpaperthree {
     background-color: #529A39;
     color: white;
     border-radius: 50px;
-    font-size: 30px;
+    position: absolute;
     width: 45px;
     height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
-}
-
-.reviewstext{
-    color: #000;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.review{
-    display: flex;
-    align-items: center;
-    background-color: #D9D9D9;
-    flex-wrap: wrap;
-    margin: 25px;   
-    padding: 5px;
+    left: 10px;
+    top: 8px;
 
 }
+.l {
+    color: #ffffff;
+    font-size: 30px;
+    position: relative;
+    left: 11px;
+    bottom: 27px;
+    
+}
+.d {
+    color: #ffffff;
+    font-size: 30px;
+    position: relative;
+    left: 11px;
+    bottom: 27px;
 
+}
+.a {
+    color: #ffffff;
+    font-size: 30px;
+    position: relative;
+    left: 11px;
+    bottom: 27px;
+}
 .download {
     background-color: white;
     border: 10px solid #7E9676;
-    width: 100%;
-}
-.button_div{
-    text-align: center;
-    margin-bottom: 135px;
-    margin-top: 95px;
+    width: 898px;
+    height: 400px;
+    position: absolute;
+    top: 2050px;
+    left: 85px;
 }
 .textdownload {
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    position: relative;
+    font-size: 20px;
     color: #3B4755;
-    text-align: center;
+    left: 150px;
+    top: 40px;
+
 }
 .buttondownload {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-family: sans-serif;
+    position: relative;
+    left: 300px;
+    top: 140px;
     text-decoration: none;
     background-color: #528442;
     padding: 30px 60px 30px 60px;
@@ -296,33 +380,42 @@ body {
     
 }
 .version {
-    font-size: 20px;
+    position: relative;
+    left: 765px;
+    top: 330px;
+    font-size: 14px;
     color: #3B4755;
-    text-align: right;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
 
-footer {
+}
+.footer {
     background-color: #DBEDD5;
-    padding: 25px;
+    position: relative;
+    left: 62px;
+    height: 250px;
+    width: 980px;
+    top: 2480px;
+
 }
 .footertextone {
     color: #3B4755;
     font-size: 14px;
-
+    position: relative;
+    top: 2250px;
+    left: 100px;
 }
 .footertexttwo {
     color: #3B4755;
     font-size: 14px;
-}
-.footerdate {
-    margin-top: 65px;
-    color: #3B4755;
-    font-size: 16px;
+    position: relative;
+    top: 2130px;
+    left: 580px;
 
 }
-.footer_text{
-    display: flex;
-    justify-content: space-between;
+.footerdate {
+    color: #3B4755;
+    font-size: 16px;
+    position: relative;
+    top: 2240px;
+    left: 80px;
+
 }
